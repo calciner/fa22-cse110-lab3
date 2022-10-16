@@ -1,2 +1,1 @@
-# fa22-cse110-lab3
-lab3
+https://calciner.github.io/cse110lab2/

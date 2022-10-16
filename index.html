@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <link href="res/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Web Desgin Project</h1>
+        <p><strong>Friday October 7th, 2022</strong></p>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="https://github.com/calciner/cse110lab2">Github</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Meeting details</h2>
+            <div><p><b>ATTENDENTS</b></p>
+                <ul>
+                <li>Yangming Guan</li>
+                <li>Jame</li>
+                <li>Bob</li>
+                </ul>
+            </div>
+            <div><p><b>LOCATIONS</b>:UCSD</p></div>
+            <div>
+                <figure>
+                    <img src="res/meeting_pic.png" alt="coffee">
+                </figure>
+            </div>
+            <div><p><b>GOAL</b>:structure of HTML,CSS,JavaScript</p></div>
+            <div><p><b>Last unfinished</b>:How to make more money.</p></div>
+        </section>
+        <section>
+            <h2>AGENDA TOPICS</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Notes</h2>
+            <details>
+                <summary>HTML</summary>
+                <p>HTML is the <span>fundation</span> of the web structrue.</p>
+            </details>
+            <details>
+                <summary>CSS</summary>
+                <p>if we can use CSS, then use it insdead of <em>JavaScript</em>.</p>
+            </details>
+            <details>
+                <summary>JavaScript</summary>
+                <p>Everything is possible.</p>
+            </details>
+        </section>
+        <section>
+            <h2>Others</h2>
+            <div>
+                <h3>Question</h3>
+                <p>How do we orgenize the schedule?</p>
+
+            </div>
+            <div>
+                <h3>Concerns</h3>
+                <p>the qulity of this project.</p>
+            </div>
+
+
+        </section>
+        <section>
+            <h2>New Note</h2>
+            <fieldset>
+                <legend>add note</legend>
+                <form action="/meeting.php" id="form">
+                    
+                    <label>Note title</label>
+                    <input>
+                    <br>
+                    
+                    <label>Note details</label>
+                    <textarea></textarea>
+                    <br>
+                    <label>code type:</label>
+                    <select>
+                        <option>python</option>
+                        <option>JavaScript</option>
+                        <option>C++</option>
+                    </select>
+                    <br>
+                    <label>Location</label>
+                    <input list="loca">
+                    <datalist id="loca">
+                        <option>CA</option>
+                        <option>SD</option>
+                        <option>NY</option>
+                    </datalist>
+                </form>
+                <button type="submit" form="form" value="Submit">Submit</button>
+            </fieldset>
+        </section>
+        <br><br><br><br><br>
+        <hr>
+        <audio controls>
+            <source src="res/meeting.mp3" type="audio/mpeg">
+        </audio>
+        <video controls>
+            <source src="res/meetingV.mp4" type="video/mp4">
+        </video>
+    </main>
+    <footer>
+        <p>Author: <i>Yangming Guan</i></p>
+        <p><a href="yaguan@ucsd.edu">yaguan@ucsd.edu</a></p>
+    </footer>
+</body>
+</html>

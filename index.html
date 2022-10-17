@@ -4,37 +4,44 @@
 <head>
     <title>Meeting Minutes</title>
     <meta charset="UTF-8">
+    <!--here is css link-->
+    <link rel="stylesheet" href="styles.css">
     <link href="res/favicon.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
     <header>
         <h1>Web Desgin Project</h1>
-        <p><strong>Friday October 7th, 2022</strong></p>
+        <p>Friday October 14th, <strong>2022</strong></p>
         
         <nav>
             <a href="index.html">Home</a>
-            <a href="https://github.com/calciner/cse110lab2">Github</a>
+            <a href="https://github.com/calciner/fa22-cse110-lab3">Github</a>
         </nav>
         <hr>
+        <style>
+            ol {
+              font-size: larger;
+            }
+            </style>
     </header>
     <main>
-        <section>
-            <h2>Meeting details</h2>
-            <div><p><b>ATTENDENTS</b></p>
+        <section id="meeting" class="box">
+            <h2 class="head">Meeting details</h2>
+            <div class="attendents"><p><b>ATTENDENTS</b></p>
                 <ul>
-                <li>Yangming Guan</li>
-                <li>Jame</li>
+                <li style="color:aqua">Yangming Guan</li>
+                <li >Jame</li>
                 <li>Bob</li>
                 </ul>
             </div>
-            <div><p><b>LOCATIONS</b>:UCSD</p></div>
-            <div>
+            <div class="location"><p><b>LOCATIONS</b>:UCSD</p></div>
+            <div class="picture">
                 <figure>
                     <img src="res/meeting_pic.png" alt="coffee">
                 </figure>
             </div>
-            <div><p><b>GOAL</b>:structure of HTML,CSS,JavaScript</p></div>
-            <div><p><b>Last unfinished</b>:How to make more money.</p></div>
+            <div class="goal"><p><b>GOAL</b>:structure of HTML,CSS,JavaScript</p></div>
+            <div class="last"><p><b>Last unfinished</b>:How to make more money.</p></div>
         </section>
         <section>
             <h2>AGENDA TOPICS</h2>
@@ -69,6 +76,10 @@
             <div>
                 <h3>Concerns</h3>
                 <p>the qulity of this project.</p>
+            </div>
+            <div>
+                <h3>others</h3>
+                <p>other thing you want to say.</p>
             </div>
 
 

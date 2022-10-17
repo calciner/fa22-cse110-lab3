@@ -1,0 +1,138 @@
+ /* css change the text color */
+@media only screen and (max-width: 1250px) {
+    section {
+        --section-width: 900px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    section{
+        --section-width: 500px
+    }
+}
+
+* {
+    color:black
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("res/Roboto-Regular.ttf");
+    font-weight: bolder;
+    font-style: normal;
+  }
+
+a[href="https://github.com/calciner/fa22-cse110-lab3"]{
+    color: #fc4dc7;
+}
+
+h1 {
+    color:#157ed4;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(57, 22, 133);
+}
+
+h3 {
+    color:hsl(34, 84%, 41%);
+    text-decoration: underline;  
+}
+
+section p {
+    font-size:medium;
+}
+
+div>p{
+    color:cornflowerblue
+}
+
+h1,h2,h3 {
+    font-family:roboto;
+}
+
+p::first-letter {
+    font-size:x-large;
+}
+
+a:active{
+    box-shadow: 2px 2px 6px #fc4dc7;
+}
+
+body {
+    position: relative;
+    width: 1400px;
+    min-width : 900px;
+    display: inline;
+    background-color: cornsilk;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    padding-top: 1ch;
+    padding-left: 1vw;
+    padding-bottom: 1ch;
+    padding-right: 1vw;
+    
+}
+
+
+section{
+    position: sticky;
+    max-width: var(--section-width);
+    min-width: 600px;
+    height: auto;
+    display: flex;
+    margin: 6px 6px 6px 6px;
+    border-style: dashed;
+    border-radius: 5mm;
+    border-color: cadetblue;
+    border-width: 0.5em;
+}
+
+div:hover{
+    display: block;
+    padding: 1vmin 1vmin 1vmin 1vmin;
+    background-color: chartreuse;
+}
+
+.attendents {
+    grid-area:at;
+}
+
+.location {
+    grid-area:lo;
+}
+
+h1 ~ p {
+    color: #fc4d73;
+}
+
+div.goal {
+    grid-area:go;
+}
+
+.last {
+    grid-area:la;
+}
+
+.picture {
+    grid-area: pi;
+}
+
+li + li {
+    color:blueviolet
+}
+
+.head {
+    grid-area: he;
+}
+
+#meeting {
+    display: grid;
+    grid-template-areas:
+        'he he he he'
+        'at at lo lo'
+        'pi pi pi pi'
+        'go go la la'
+}
